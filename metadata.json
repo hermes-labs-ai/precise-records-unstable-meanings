@@ -1,0 +1,83 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://doi.org/10.5281/zenodo.21652317",
+  "name": "Precise Records, Unstable Meanings: Measurement Validity and Unsupported Claims Derived from AI Agent Telemetry",
+  "headline": "Precise Records, Unstable Meanings: Measurement Validity and Unsupported Claims Derived from AI Agent Telemetry",
+  "description": "This preprint presents a twelve-week naturalistic audit of AI agent telemetry and measurement validity. It shows how transcript files, claims ledgers, anomaly scores, agent traces, and operational records can support record-level measurements without establishing logical-session duration, completed tasks, correct outcomes, or failure prevalence. It introduces a Telemetry-to-Claim Gate for producer provenance, analytical unit, construct, population, observation window, denominator, validation evidence, and sensitivity before telemetry is used in agent evaluation, observability, governance, or system redesign.",
+  "author": {
+    "@type": "Person",
+    "givenName": "Rolando",
+    "familyName": "Bosch",
+    "identifier": "https://orcid.org/0009-0005-4896-1112",
+    "affiliation": {
+      "@type": "Organization",
+      "name": "Hermes Labs"
+    }
+  },
+  "datePublished": "2026-07-30",
+  "inLanguage": "en",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "DOI",
+    "value": "10.5281/zenodo.21652317"
+  },
+  "keywords": [
+    "AI agent telemetry",
+    "measurement validity",
+    "construct validity",
+    "agent evaluation",
+    "operational telemetry",
+    "telemetry provenance",
+    "agent observability",
+    "coding agents",
+    "Telemetry-to-Claim Gate",
+    "agent traces",
+    "trajectory-level evaluation",
+    "evaluation validity"
+  ],
+  "citation": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5281/zenodo.18867694",
+      "name": "The Asymmetric Burden of Proof: LLMs Show a Null-Result Asymmetry in a Matched-Vignette Benchmark"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5281/zenodo.19042469",
+      "name": "A Taxonomy of Epistemic Failure Modes in Large Language Models"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5281/zenodo.21659634",
+      "name": "The Generative Horizon: Applied Hermeneutics, Linguistic Attractors, and the Limits of Model Self-Report"
+    }
+  ],
+  "encoding": [
+    {
+      "@type": "MediaObject",
+      "encodingFormat": "application/pdf",
+      "name": "precise-records-unstable-meanings-ai-agent-telemetry-validity.pdf"
+    },
+    {
+      "@type": "MediaObject",
+      "encodingFormat": "text/markdown",
+      "name": "precise-records-unstable-meanings-ai-agent-telemetry-validity.md"
+    },
+    {
+      "@type": "MediaObject",
+      "encodingFormat": "application/x-tex",
+      "name": "precise-records-unstable-meanings-ai-agent-telemetry-validity.tex"
+    },
+    {
+      "@type": "MediaObject",
+      "encodingFormat": "application/zip",
+      "name": "precise-records-unstable-meanings-ai-agent-telemetry-supplement.zip"
+    }
+  ]
+}

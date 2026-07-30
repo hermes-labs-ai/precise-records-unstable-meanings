@@ -1,0 +1,5 @@
+claims_per_day_bucket,n_days
+1,2
+2-5,3
+6-20,3
+>20,1

@@ -1,0 +1,30 @@
+source,field,type,interpretation,privacy_treatment
+transcripts,timestamp,iso8601,event wall-clock time (UTC),minute resolution in exports
+transcripts,sessionId,uuid,session identity,salted-hash 12hex
+transcripts,type,enum,event class (user/assistant/system/harness-*),kept as enum
+transcripts,isSidechain,bool,subagent sidechain marker (background traffic),kept
+transcripts,toolUseID,presence,tool activity indicator,presence-count only
+transcripts,version,str,harness version (schema-epoch marker),kept as version string
+transcripts,cwd,path,project context,coarse salted-hash bucket only
+transcripts,stopReason,enum,machine stop cause per assistant turn,kept as enum
+transcripts,preventedContinuation,bool,harness prevented continuation (interruption proxy),kept
+transcripts,message/content/lastPrompt/slug/aiTitle,text,NEVER READ into pipeline,excluded at parser level
+turn_metrics,ts,iso8601,turn time,minute resolution
+turn_metrics,session,filename,session identity,salted-hash 12hex
+turn_metrics,"chars,words,sentences,mean_sentence_len,emdash_per_1k,hedge_per_100w,type_token_ratio",numeric,text-shape features per assistant turn,kept
+turn_metrics,turn_uuid,uuid,turn identity,DROPPED (not needed; linkage risk)
+turn_anomaly,ts,iso8601,turn time,minute resolution
+turn_anomaly,session_id,uuid,session identity,salted-hash 12hex
+turn_anomaly,"flagged,instruction_shaped,max_z,n_2sigma,n_tokens_approx",numeric/bool,anomaly magnitude + flags,kept
+turn_anomaly,msg_hash,hash,unsalted content hash,DROPPED (dictionary-attack linkage risk)
+claims_log,ts,iso8601,claim time,minute resolution
+claims_log,session,uuid-or-blank,session identity (present on subset),salted-hash; blank => UNBOUND
+claims_log,"claim,proof",text,"content NEVER exported; only len(claim), has_proof bool",derived booleans/lengths only
+hermeneutic_gate,ts,iso8601,gate event time,minute resolution
+hermeneutic_gate,session_id,uuid,session identity,salted-hash 12hex
+hermeneutic_gate,"verdict,severity,rule_ids,n_hits,draft_len,context,child_session,ai_agent",enum/numeric,overclaim verdicts,kept
+hermeneutic_gate,draft_sha256,hash,unsalted draft hash,DROPPED
+chain_broken,line,text,ts + known flag phrase,"phrase mapped to fixed enum {standing-by, awaiting, other}"
+drift_log,filename,pattern,YYYY-MM-DD-[BACKFILL-]session-<short8>-drift.json; date+short-id+backfill flag,short-id salted-hash; backfill kept as bool
+drift_log,"total_turns,anomalies_detected,threat_level,sustained_anomaly,avg_absolute_drift,max_absolute_drift,mode,window_size,wall_time_s",numeric/enum,drift summary per analyzed session,kept
+drift_log,"session_jsonl,readings",path/list,absolute path + per-window detail,path DROPPED; readings not exported (count only)

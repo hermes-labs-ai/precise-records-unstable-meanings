@@ -1,0 +1,4 @@
+signal,events,scored_total,window_days
+anomaly_flagged,20860,31904,21
+overclaim_gate_risk,128,394,2
+chain_broken,13,13,1

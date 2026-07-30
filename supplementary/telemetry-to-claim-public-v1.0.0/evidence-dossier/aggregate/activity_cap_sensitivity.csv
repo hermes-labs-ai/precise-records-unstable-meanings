@@ -1,0 +1,5 @@
+stratum,cap_min,n,p25_min,median_min,p75_min,p90_min,mean_min,sum_hours
+TRUSTED,5,36502,0.0,0.0,1.0,1.0,1.3,777.6
+TRUSTED,15,36502,0.0,0.0,1.0,1.0,1.6,1001.1
+TRUSTED,30,36502,0.0,0.0,1.0,1.0,1.9,1166.0
+TRUSTED+UWC,15,41494,0.0,0.0,1.0,1.0,1.5,1035.2

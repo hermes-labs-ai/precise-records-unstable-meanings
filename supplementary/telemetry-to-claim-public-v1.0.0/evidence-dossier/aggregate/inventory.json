@@ -1,0 +1,115 @@
+{
+ "generated_note": "counts at run time; sources are live logs (drift between runs expected, tolerance \u00b12%)",
+ "sources": {
+  "transcripts": {
+   "kind": "file-glob",
+   "included": true,
+   "reason": "primary: session event streams (durations, activity, interruptions, sidechains)",
+   "rows": 41495,
+   "total_bytes": 2544443162,
+   "first_ts": "2026-04-30",
+   "last_ts": "2026-07-23",
+   "note": "file-level stats only; content pass happens once in extract.py (mtime range, not event-ts range)"
+  },
+  "turn_metrics": {
+   "kind": "jsonl",
+   "included": true,
+   "reason": "per-assistant-turn numeric text-shape metrics",
+   "rows": 30656,
+   "malformed": 0,
+   "first_ts": "2026-06-19",
+   "last_ts": "2026-07-23",
+   "schema_variants": 1,
+   "top_schema_sizes": [
+    30656
+   ]
+  },
+  "turn_anomaly": {
+   "kind": "jsonl",
+   "included": true,
+   "reason": "per-turn anomaly flags (z-scores)",
+   "rows": 31905,
+   "malformed": 0,
+   "first_ts": "2026-07-02",
+   "last_ts": "2026-07-23",
+   "schema_variants": 1,
+   "top_schema_sizes": [
+    31905
+   ]
+  },
+  "claims_log": {
+   "kind": "jsonl",
+   "included": true,
+   "reason": "claim-logging cadence proxy (counts/timestamps only; text never exported)",
+   "rows": 28055,
+   "malformed": 0,
+   "first_ts": "2026-04-28",
+   "last_ts": "2026-07-23",
+   "schema_variants": 8,
+   "top_schema_sizes": [
+    28035,
+    11,
+    3
+   ]
+  },
+  "hermeneutic_gate": {
+   "kind": "jsonl",
+   "included": true,
+   "reason": "overclaim-gate verdicts per draft",
+   "rows": 394,
+   "malformed": 0,
+   "first_ts": "2026-07-22",
+   "last_ts": "2026-07-23",
+   "schema_variants": 1,
+   "top_schema_sizes": [
+    394
+   ]
+  },
+  "chain_broken": {
+   "kind": "text",
+   "included": true,
+   "reason": "stop-too-soon flags (tiny n; qualitative)",
+   "rows": 13,
+   "malformed": 0,
+   "first_ts": "2026-07-22",
+   "last_ts": "2026-07-22"
+  },
+  "drift_log": {
+   "kind": "file-glob",
+   "included": true,
+   "reason": "per-session drift summaries; BACKFILL files classified separately",
+   "rows": 23220,
+   "backfill": 741,
+   "first_ts": "2026-04-28",
+   "last_ts": "2026-07-23"
+  },
+  "claims_log_legacy": {
+   "kind": "jsonl",
+   "included": false,
+   "reason": "EXCLUDED: 52-row legacy shard; double-count risk vs claims_log (audit M1.5 checks overlap)",
+   "rows": 52,
+   "malformed": 0,
+   "first_ts": "2026-07-06",
+   "last_ts": "2026-07-21",
+   "schema_variants": 3,
+   "top_schema_sizes": [
+    25,
+    22,
+    5
+   ]
+  },
+  "background_poller": {
+   "kind": "text",
+   "included": false,
+   "reason": "EXCLUDED: GTM poller traffic, not session telemetry",
+   "rows": 6618,
+   "malformed": 0,
+   "first_ts": "2026-04-28",
+   "last_ts": "2026-07-06"
+  },
+  "misc_small": {
+   "included": false,
+   "reason": "EXCLUDED: tiny/ambiguous provenance or unrelated to session-horizon constructs"
+  }
+ }
+}

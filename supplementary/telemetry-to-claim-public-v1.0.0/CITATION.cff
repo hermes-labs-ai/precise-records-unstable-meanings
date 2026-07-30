@@ -1,0 +1,62 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite the primary research paper."
+title: "Precise Records, Unstable Meanings: Measurement Validity and Unsupported Claims Derived from AI Agent Telemetry"
+type: article
+version: 1.0.0
+date-released: "2026-07-30"
+doi: 10.5281/zenodo.21652317
+keywords:
+  - "AI agent telemetry"
+  - "measurement validity"
+  - "construct validity"
+  - "agent evaluation"
+  - "operational telemetry"
+  - "telemetry provenance"
+  - "agent observability"
+  - "coding agents"
+  - "Telemetry-to-Claim Gate"
+authors:
+  - family-names: Bosch
+    given-names: Rolando
+    affiliation: "Hermes Labs"
+    email: "roli@hermes-labs.ai"
+    orcid: "https://orcid.org/0009-0005-4896-1112"
+preferred-citation:
+  type: article
+  title: "Precise Records, Unstable Meanings: Measurement Validity and Unsupported Claims Derived from AI Agent Telemetry"
+  authors:
+    - family-names: Bosch
+      given-names: Rolando
+      affiliation: "Hermes Labs"
+      email: "roli@hermes-labs.ai"
+      orcid: "https://orcid.org/0009-0005-4896-1112"
+  year: 2026
+  doi: 10.5281/zenodo.21652317
+  publisher:
+    name: Hermes Labs
+  notes: "Analysis, criticism, and drafting assistance were provided by AI systems operated within the Hermes Autonomous Lab."
+references:
+  - type: article
+    title: "The Asymmetric Burden of Proof: LLMs Show a Null-Result Asymmetry in a Matched-Vignette Benchmark"
+    authors:
+      - family-names: "Bosch Rodriguez"
+        given-names: Rolando
+    year: 2026
+    doi: 10.5281/zenodo.18867694
+    url: "https://doi.org/10.5281/zenodo.18867694"
+  - type: article
+    title: "A Taxonomy of Epistemic Failure Modes in Large Language Models"
+    authors:
+      - family-names: "Bosch Rodriguez"
+        given-names: Rolando
+    year: 2026
+    doi: 10.5281/zenodo.19042469
+    url: "https://doi.org/10.5281/zenodo.19042469"
+  - type: article
+    title: "The Generative Horizon: Applied Hermeneutics, Linguistic Attractors, and the Limits of Model Self-Report"
+    authors:
+      - family-names: Bosch
+        given-names: Rolando
+    year: 2026
+    doi: 10.5281/zenodo.21659634
+    url: "https://doi.org/10.5281/zenodo.21659634"

@@ -1,0 +1,6 @@
+tier,n,share,median_w_min,median_a15_min,p90_a15_min,sum_a15_hours,gap_dominant_n,gap_dominant_a15_h,residual_qualifying_n
+micro <5min,35652,0.977,0.0,0.0,1.0,176.4,9272,159.3,35652
+short 5-30min,661,0.018,10.0,10.0,16.0,123.8,287,61.0,264
+medium 30-120min,62,0.002,46.5,38.5,68.8,43.9,22,9.2,35
+long 2-8h,40,0.001,239.0,149.5,227.0,100.7,12,19.4,27
+extended >8h,87,0.002,2727.0,235.0,694.6,556.3,59,265.6,41
