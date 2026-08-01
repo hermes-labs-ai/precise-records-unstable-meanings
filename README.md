@@ -16,6 +16,13 @@ Canonical archival package for:
 3. Use the
    [GitHub Release](https://github.com/hermes-labs-ai/precise-records-unstable-meanings/releases/tag/v1.0.0)
    to download the frozen PDF, supplementary ZIP, and release-asset checksums.
+4. Read the
+   [accessible HTML edition](https://hermes-labs.ai/research/precise-records-unstable-meanings)
+   or open the
+   [canonical public PDF](https://hermes-labs.ai/papers/precise-records-unstable-meanings-ai-agent-telemetry-validity.pdf).
+5. See the author's
+   [ORCID record](https://orcid.org/0009-0005-4896-1112)
+   for the canonical scholarly identity and work listing.
 
 The root PDF is the primary paper. The root ZIP is the downloadable supplement;
 the `supplementary/` directory is its byte-matching, browsable expansion.
