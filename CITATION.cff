@@ -41,7 +41,7 @@ references:
   - type: article
     title: "The Asymmetric Burden of Proof: LLMs Show a Null-Result Asymmetry in a Matched-Vignette Benchmark"
     authors:
-      - family-names: "Bosch Rodriguez"
+      - family-names: "Bosch"
         given-names: Rolando
     year: 2026
     doi: 10.5281/zenodo.18867694
@@ -49,7 +49,7 @@ references:
   - type: article
     title: "A Taxonomy of Epistemic Failure Modes in Large Language Models"
     authors:
-      - family-names: "Bosch Rodriguez"
+      - family-names: "Bosch"
         given-names: Rolando
     year: 2026
     doi: 10.5281/zenodo.19042469
