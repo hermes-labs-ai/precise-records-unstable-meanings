@@ -1,0 +1,38 @@
+# Precise Records, Unstable Meanings
+
+Archival repository for a Hermes Labs Zenodo preprint. Read the paper
+at https://hermes-labs.ai/research/precise-records-unstable-meanings or cite the DOI directly.
+
+## What this is
+
+This paper audits whether operational telemetry actually measures the sessions, tasks, outcomes, behaviors, and failure rates later attributed to it. It separates valid record-level quantities from unsupported construct-level interpretations and introduces a Telemetry-to-Claim Gate covering producer provenance, analytical unit, construct, population, observation window, denominator, validation evidence, and sensitivity.
+
+## Canonical identity
+
+- Title: Precise Records, Unstable Meanings: Measurement Validity and Unsupported Claims Derived from AI Agent Telemetry
+- Author: Rolando Bosch, Hermes Labs (ORCID 0009-0005-4896-1112)
+- DOI (concept, version-independent): 10.5281/zenodo.21652316
+- DOI (current version): 10.5281/zenodo.21652317
+- Publication date: 2026-07-30
+- License: CC BY 4.0
+- Canonical HTML edition: https://hermes-labs.ai/research/precise-records-unstable-meanings
+- Hosted PDF: https://hermes-labs.ai/papers/precise-records-unstable-meanings-ai-agent-telemetry-validity.pdf
+- Publication index entry: https://github.com/hermes-labs-ai/hermes-publications/tree/main/papers/precise-records-unstable-meanings
+- Repository: https://github.com/hermes-labs-ai/precise-records-unstable-meanings
+
+## Evidence boundary
+
+The reported corpus is a naturalistic twelve-week deployment audit. Its valid file-level, ledger-level, and instrument-level measurements do not by themselves establish logical-session duration, completed tasks, correct outcomes, or failure prevalence.
+
+Not peer reviewed. Deposited on Zenodo, which assigns a DOI without refereeing.
+
+## Not affiliated
+
+Hermes Labs is not affiliated with NousResearch, Teknium, the Nous-Hermes LLM
+line, or the unrelated `hermes-agent` project.
+
+## Citation
+
+See CITATION.cff and CITATION.bib in this repository, or:
+
+Bosch, R. (2026). Precise Records, Unstable Meanings: Measurement Validity and Unsupported Claims Derived from AI Agent Telemetry. Zenodo. https://doi.org/10.5281/zenodo.21652316

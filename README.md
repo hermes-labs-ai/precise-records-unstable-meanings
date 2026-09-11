@@ -1,5 +1,7 @@
 # Precise Records, Unstable Meanings
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21652316.svg)](https://doi.org/10.5281/zenodo.21652316)
+
 Canonical archival package for:
 
 > Rolando Bosch, “Precise Records, Unstable Meanings: Measurement Validity and
@@ -65,6 +67,9 @@ outcomes, or failure prevalence.
   discovery metadata.
 - [CITATION.bib](CITATION.bib) and [CITATION.cff](CITATION.cff) — citation
   metadata.
+- [codemeta.json](codemeta.json) — CodeMeta 2.0 software/archive metadata.
+- [.zenodo.json](.zenodo.json) — Zenodo deposit metadata mirroring the canonical record.
+- [llms.txt](llms.txt) — machine-readable summary for retrieval agents.
 - [LICENSE.md](LICENSE.md) — content and software licensing summary.
 - [SHA256SUMS](SHA256SUMS) — checksums for the tagged repository package. The
   `SHA256SUMS` attached to the GitHub Release is a separate two-file manifest

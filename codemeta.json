@@ -1,0 +1,38 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "SoftwareSourceCode",
+  "name": "Precise Records, Unstable Meanings: Measurement Validity and Unsupported Claims Derived from AI Agent Telemetry",
+  "description": "This paper audits whether operational telemetry actually measures the sessions, tasks, outcomes, behaviors, and failure rates later attributed to it. It separates valid record-level quantities from unsupported construct-level interpretations and introduces a Telemetry-to-Claim Gate covering producer provenance, analytical unit, construct, population, observation window, denominator, validation evidence, and sensitivity.",
+  "identifier": "https://doi.org/10.5281/zenodo.21652316",
+  "codeRepository": "https://github.com/hermes-labs-ai/precise-records-unstable-meanings",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "datePublished": "2026-07-30",
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Rolando",
+      "familyName": "Bosch",
+      "@id": "https://orcid.org/0009-0005-4896-1112",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Hermes Labs"
+      }
+    }
+  ],
+  "keywords": [
+    "AI agent telemetry",
+    "measurement validity",
+    "construct validity",
+    "agent evaluation",
+    "operational telemetry",
+    "telemetry provenance",
+    "agent observability",
+    "coding agents",
+    "Telemetry-to-Claim Gate"
+  ],
+  "relatedLink": [
+    "https://hermes-labs.ai/research/precise-records-unstable-meanings",
+    "https://hermes-labs.ai/papers/precise-records-unstable-meanings-ai-agent-telemetry-validity.pdf",
+    "https://github.com/hermes-labs-ai/hermes-publications/tree/main/papers/precise-records-unstable-meanings"
+  ]
+}

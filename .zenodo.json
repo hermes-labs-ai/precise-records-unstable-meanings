@@ -1,0 +1,43 @@
+{
+  "title": "Precise Records, Unstable Meanings: Measurement Validity and Unsupported Claims Derived from AI Agent Telemetry",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "description": "This paper audits whether operational telemetry actually measures the sessions, tasks, outcomes, behaviors, and failure rates later attributed to it. It separates valid record-level quantities from unsupported construct-level interpretations and introduces a Telemetry-to-Claim Gate covering producer provenance, analytical unit, construct, population, observation window, denominator, validation evidence, and sensitivity.",
+  "creators": [
+    {
+      "name": "Bosch, Rolando",
+      "orcid": "0009-0005-4896-1112",
+      "affiliation": "Hermes Labs, San Francisco, California, USA"
+    }
+  ],
+  "keywords": [
+    "AI agent telemetry",
+    "measurement validity",
+    "construct validity",
+    "agent evaluation",
+    "operational telemetry",
+    "telemetry provenance",
+    "agent observability",
+    "coding agents",
+    "Telemetry-to-Claim Gate",
+    "agent traces",
+    "trajectory-level evaluation",
+    "evaluation validity"
+  ],
+  "license": "CC-BY-4.0",
+  "access_right": "open",
+  "publication_date": "2026-07-30",
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.21652316",
+      "relation": "isIdenticalTo",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "https://hermes-labs.ai/research/precise-records-unstable-meanings",
+      "relation": "isIdenticalTo",
+      "scheme": "url"
+    }
+  ],
+  "_comment": "This file mirrors the canonical Zenodo record (10.5281/zenodo.21652316, concept DOI) for discovery. The paper is already deposited directly on Zenodo. Do NOT connect this repository to the Zenodo GitHub integration / webhook: doing so would mint a second, duplicate DOI on the next GitHub release instead of pointing at the existing canonical record. Keep the GitHub-Zenodo integration OFF for this repository, exactly as hermes-publications already does."
+}
