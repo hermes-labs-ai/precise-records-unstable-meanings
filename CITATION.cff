@@ -35,7 +35,7 @@ preferred-citation:
   year: 2026
   doi: 10.5281/zenodo.21652317
   publisher:
-    name: Hermes Labs
+    name: Zenodo
   notes: "Analysis, criticism, and drafting assistance were provided by AI systems operated within the Hermes Autonomous Lab."
 references:
   - type: article
