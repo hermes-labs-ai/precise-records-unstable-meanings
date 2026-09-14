@@ -18,7 +18,7 @@ keywords:
   - "coding agents"
   - "Telemetry-to-Claim Gate"
 authors:
-  - family-names: Bosch
+  - family-names: Bosch Rodriguez
     given-names: Rolando
     affiliation: "Hermes Labs"
     email: "roli@hermes-labs.ai"
@@ -27,7 +27,7 @@ preferred-citation:
   type: article
   title: "Precise Records, Unstable Meanings: Measurement Validity and Unsupported Claims Derived from AI Agent Telemetry"
   authors:
-    - family-names: Bosch
+    - family-names: Bosch Rodriguez
       given-names: Rolando
       affiliation: "Hermes Labs"
       email: "roli@hermes-labs.ai"
